@@ -13,5 +13,9 @@ libraryDependencies ++= Seq(
   // zio lib
   "dev.zio" %% "zio" % zioVersion,
   "dev.zio" %% "zio-streams" % zioVersion,
-  "dev.zio" %% "zio-logging-slf4j" % zioLogVersion
+  "dev.zio" %% "zio-logging-slf4j" % zioLogVersion,
+
+  //jenkins
+//  "org.jenkins-ci.main" % "cli" % "2.85",
+  "com.offbytwo.jenkins" % "jenkins-client" % "0.3.8"
 )
